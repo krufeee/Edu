@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Forms</h1>
-    <form action="">
+    <form method="POST" action="submitted.html">
+      <fieldset>
+        <legend>Test</legend>
+        <div>
+          <label for="username">Username</label>
+          <input id="username" type="text" name="username" placeholder="Enter your name here"/>
+        </div>
 
+        <div>
+          <label for="pass">Password</label>
+          <input id="pass" type="password" name="pass" required/>
+        </div>
+
+        <div>
+          <h2>Select car brand</h2>
+          <label for="volvo">Volvo</label>
+          <input id="volvo" type="checkbox" value="VOLVO" name="brand" />
+
+          <label for="bmw">Bmw</label>
+          <input id="bmw" type="checkbox" value="BMW" name="brand" />
+
+          <label for="audi">Audi</label>
+          <input id="audi" type="checkbox" value="AUDI" name="brand" />
+        </div>
+
+        <div>
+          <h2>Select a location</h2>
+          <label for="de">Germany</label>
+          <input id="de" type="radio" value="de" name="location" />
+
+          <label for="bg">Bulgaria</label>
+          <input id="bg" type="radio" value="bg" name="location" />
+
+          <label for="fe">France</label>
+          <input id="fe" type="radio" value="fe" name="location" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Test2</legend>
+        <div>
+          <label for="msg">Messsage</label>
+          <textarea name="" id="msg" cols="50" rows="10"></textarea>
+        </div>
+      </fieldset>
+      <button type="submit">Submit <b>Text</b></button>
+      <input type="submit" value="KRUFE" />
+      <button type="reset">Reset</button>
+      <button type="button">Normal button</button>
     </form>
-</body>
+  </body>
 </html>
