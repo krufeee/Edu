@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Shadow';
+    src: url('ShadowsIntoLight-Regular.ttf');
+}
+p{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: "Shadow";
+    font-size: 12px;
+}
+
+.main-ul{
+    font-size: 18px;
+}
+
+.main-ul li{
+    font-size: 1.2em;
+}
