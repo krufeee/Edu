@@ -1,0 +1,47 @@
+
+body {
+    background-color: #eeee;
+    margin: 50px;
+}
+
+h2 {
+    font-weight: 300;
+    line-height: 40px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.button {
+    color: ;
+    outline: none;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-left: 8px;
+    cursor: pointer; 
+    font-size: 15px;
+}
+
+a {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 10px;
+    padding: 1.5px 5px 1.5px 5px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.black {
+    background-color:rgb(51, 51, 51);
+    color: #f6f9fb;
+}
+
+.hover:hover {
+    background-color: green
+}
+
+.white:hover {
+    background-color: white;
+    border-color: rgb(0, 102, 0);
+}
