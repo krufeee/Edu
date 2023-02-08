@@ -22,9 +22,12 @@ blockquote {
 }
 table {
   width: 900px;
+  border-collapse: collapse;
+  table-layout: fixed;
 }
 
 th {
+  text-align: left;
   background-color: #cccccc;
 }
 
@@ -34,3 +37,6 @@ th {
 .koko {
   text-align: end;
 }
+ td {
+  border: 1px solid black
+ }
