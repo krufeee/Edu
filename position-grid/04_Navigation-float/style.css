@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+
+    padding: 40px;
+    background-color: rgb(238, 238, 238);
+}
+
+main {
+    display: grid;
+    grid-template-areas: 
+    "left left left right";
+    gap: 50px;
+    grid-template-columns: repeat(3, 1fr) 1fr;
+
+}
+article{
+    grid-area: left;
+}
+
+body>header {
+    display: grid;
+    grid-template-areas: "title .  nav";
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+header p {margin: 0px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    grid-area: title;
+    display: inline-block;
+}
+
+.navigation{
+    text-align: end;
+    margin-right: 0px;
+    grid-area: nav;
+    display: inline-block;
+}
+.navigation ul {
+    
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navigation ul li {
+    margin-right: 16px;
+    display: inline-block;
+}
+
+.navigation ul li a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+main article header h1 {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+}
+
+main article section img {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    padding: 5px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 250px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+}
+
+div .leftside {
+    margin-right: 0px;
+    display: inline-block;
+    width: 45%;
+
+    
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    padding-left: 20px;
+    display: inline-block;
+    width: 45%;
+    border-left: 2px solid lightgrey;
+    
+}
+
+.second img {
+    margin-left: 0px;
+    margin-right: 20px;
+    float: left;
+    /* border: 2px solid black; */
+}
+
+aside {
+    grid-area: right;
+}
+
+.additional.links a{
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+
+}
+
+h3 {
+    display: block;
+}

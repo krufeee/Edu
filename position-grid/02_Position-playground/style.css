@@ -1,0 +1,35 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+div {
+    position: relative;
+    height: 500px;
+}
+
+.card {
+    display: block;
+
+}
+
+img {
+    width: 300px;
+    position: absolute;
+    /* left: calc(50%-150px); */
+    left: 50%;
+    top: 150px;
+}
+
+.vewport.first {
+    background-image: linear-gradient(to right, #195c9d, #43cba1);
+}
+
+.vewport.second {
+    background-image: linear-gradient(to right, #aa3274, #d07f0e);
+}
+
+i {
+    color: whitesmoke;
+    /* z-index: 1;
+    font-size: 20px;
+    position: relative;
+    left: -30px;
+    bottom: 10px; */
+}
