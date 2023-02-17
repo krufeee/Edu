@@ -8,17 +8,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     width: 100%;
 }
 
 .cards-layout {
     height: auto;
-    justify-content: center;
     display: inline-flex;
     flex-wrap: wrap;
-    flex-direction: column;
     width: 45%;
     gap: 20px;
     
@@ -27,8 +24,6 @@ div.card {
     height:auto;
     padding-bottom: 0px;
     margin-bottom: 0px;
-    /* display: flex;
-    flex-wrap: wrap; */
     background-color: whitesmoke;
     border-radius: 6px;
     width: 200px;
