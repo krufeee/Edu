@@ -1,0 +1,109 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 30rem;
+    height: 16rem;
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+}
+
+h3 {
+    border-radius: 4px;
+    box-shadow: 0 0 5px black;
+    background-color: whitesmoke;
+    transform: translate(0px, -2.5rem);
+    border: 1px solid black;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    padding-left: 1rem;
+    align-items: center;
+    margin-bottom: 0%;
+}
+
+
+p{
+    margin-left: 2rem;
+}
+
+label {
+    font-weight: bold;;
+}
+input {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 6px;
+}
+
+button {
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    margin-left: 2rem;
+    border-radius: 4px;
+    width: 5rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+input:focus {
+    background-color: lightgray;
+    
+}
+
+@media (max-width:1447px) {
+    body {
+        margin-top: 6rem;
+    }
+    form {
+        scale: 0.9;
+    }
+    
+    h3 {
+        background-color: red;
+    }
+}
+
+@media (max-width:575px) {
+    body {
+        margin-top: 2rem;
+    }
+    form {
+        scale: 0.8;
+    }
+    
+    h3 {
+        background-color: blue;
+    }
+}
+
+
+@media (max-width:374px) {
+    body {
+        margin-top: 1rem;
+    }
+    form {
+        scale: 0.7;
+    }
+    
+    h3 {
+        background-color: green;
+    }
+}

@@ -1,0 +1,262 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+body {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+header .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo p {
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+
+header .logo h1{
+    color: rgb(128, 0, 128);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 50px;
+
+}
+
+header .header-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    gap: 10px;
+}
+
+header .header-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+header nav ul li a{
+    color: black;
+}
+
+main {
+    box-shadow: 0px 10px 15px rgb(183, 178, 178);
+}
+/* -----------------welcome section------------------------ */
+
+section {
+    margin-top: 150px;
+}
+
+.wellcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wellcome button {
+    background-color: antiquewhite;
+    width: 35%;
+}
+
+.wellcome .wellcome-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    width: 20%;
+
+
+}
+
+.wellcome .wellcome-left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.wellcome-left h2 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 200;
+}
+
+.wellcome-left p {
+    margin-bottom: 20px;
+}
+
+/* ----------------------Team section---------------------- */
+
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team h3 {
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 30px;
+
+}
+
+.effect {
+    border: 2px solid black;
+    width: 8%;
+    margin-bottom: 50px;
+}
+
+.card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3%;
+    width:60%;
+}
+
+.card-holder .card {
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.card-holder .card .card-img {
+    border: 2px ridge white;
+    box-shadow: 0 0 5px black;
+    border-radius: 100%;
+    width: 40%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+.card-holder .card .name{
+    font-weight: bold;
+}
+
+.card-holder .card .position {
+    margin-bottom: 50px;
+}
+
+.card-holder .card .features {
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* -----------------Pink Block------------------------- */
+
+.purple-block {
+    background-color:  rgb(103, 0, 103);
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+}
+
+
+.purple-block h4 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.purple-block .purple-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+.purple-block .purple-input input {
+    width: 40%;
+}
+
+.purple-block button {
+    width: 10%;
+}
+
+/* -----------------Testimonials---------------------- */
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-holder .card .text {
+    font-style: italic;
+}
+
+/* ---------------------------Footer------------------------- */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer .footer-info {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+footer .footer-info h5 {
+    margin: 0%;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.sitemap {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.sitemap ul {
+    height: 160px;
+    gap: 30%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.sitemap ul li a {
+    color: black;
+}

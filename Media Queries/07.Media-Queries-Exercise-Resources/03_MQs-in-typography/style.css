@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 23px;
+  margin: auto;
+  width: 90vw;
+  background-color: rgb(238, 238, 238);
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+article {
+  flex-direction: column;
+  display: inline-flex;
+  width: 75%;
+}
+
+hr {
+  width: 100%;
+}
+
+img {
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.float1 img {
+  margin-left: 20px;
+  float: right;
+  width: 15%;
+}
+
+.float2 img {
+  margin-right: 20px;
+  float: left;
+  width: 15%;
+}
+.float3 > p {
+  width: 50%;
+}
+blockquote {
+  font-style: italic;
+  margin-top: 0px;
+  margin-left: 5px;
+  border-left: 3px solid grey;
+  width: 45%;
+  float: right;
+  font-family: Georgia, serif;
+}
+
+blockquote p {
+  margin-bottom: 0px;
+  text-align: end;
+}
+
+aside a {
+  color: rgb(0, 153, 0);
+}
+
+h1,
+h2 {
+  font-family: Georgia, serif;
+}
+
+aside {
+  align-items: center;
+  display: inline-flex;
+  width: 20%;
+  flex-direction: column;
+}
+
+/* Desktop */
+@media (max-width: 1800px) {
+  body {
+    font-size: 23px;
+  }
+}
+
+/* Laptop */
+@media (max-width: 1300px) {
+  body {
+    font-size: 21px;
+  }
+  aside {
+    display: none;
+  }
+  article {
+    width: 100%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 800px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Tablet2 */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  .float1 img {
+    margin-left: 20px;
+    float: right;
+    width: 25%;
+  }
+}
+
+/* Tablet3 */
+@media (max-width: 500px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Phone */
+@media (max-width: 360px) {
+  body {
+    font-size: 12px;
+  }
+  .float1 img {
+    float: none;
+    margin-left: 20px;
+    width: 60%;
+  }
+
+  .float2 img {
+    float: none;
+    margin-right: 20px;
+    width: 60%;
+  }
+  .float3 > p {
+    width: 100%;
+    float: none;
+  }
+  blockquote {
+    float: none;
+    width: 100%;
+  }
+}
