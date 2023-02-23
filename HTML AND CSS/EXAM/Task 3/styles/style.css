@@ -1,0 +1,207 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  body {
+    font-family: 'Poppins', 'serif';
+  }
+
+
+  a{
+    color: black;
+    text-decoration: none;
+  }
+
+  header {
+    position: relative;
+    margin-bottom: 60px;
+  }
+  
+  .img-container {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .hero-img {
+    padding-top: 50px;
+    /* object-fit: cover; */
+    width: 100%;
+  }
+  
+
+  .navigation ul{
+    display: flex;
+    gap: 48px;
+    position: absolute;
+    top: 40px;
+    right: 300px;
+    display: flex;
+  }
+
+  .navigation ul {
+    display: flex;
+  }
+
+  button {
+    background-color: rgb(55, 5, 17);
+    color: rgb(255, 254, 254);
+    border-radius: 80px;
+    padding: 0px 26px 0 26px;
+    font-size: 14px;
+  }
+
+  .navigation h2 {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    font-weight: bolder;
+  }
+
+  .hero-info {
+    bottom:220px;
+    left: 400px;
+    width: 600px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-info .title {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+
+  .hero-info .subtitle {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .hero-info .desc {
+    margin-bottom: 20px;
+  }
+
+  .places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .places h2 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .places p {
+    margin-bottom: 30px;
+  }
+
+  .card-holder {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .card img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .card .city {
+    font-weight: bolder;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .card .info {
+    margin-bottom: 30px;
+  }
+
+  .card button {
+    color: black;
+    font-weight: bold;
+    background-color: transparent;
+    margin-bottom: 50px;
+    padding: 14px 32px 14px 32px;
+  }
+
+  footer {
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+
+  footer *{
+    color: white;
+
+  }
+
+  .deals {
+    height: 80%;
+  }
+
+  .deal-links {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .footer-nav {
+    height: 60%;
+  }
+
+  .footer-links {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .social h5 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .social .icons {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .travel {
+    font-weight: bold;
+    font-size: 32px;
+  }
